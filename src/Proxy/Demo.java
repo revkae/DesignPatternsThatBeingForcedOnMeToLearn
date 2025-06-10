@@ -7,7 +7,7 @@ public class Demo {
 
         // Image will be loaded from disk
         image1.display();
-        
+
         // Image will not be loaded from disk, it will use the cached version
         image1.display();
 
