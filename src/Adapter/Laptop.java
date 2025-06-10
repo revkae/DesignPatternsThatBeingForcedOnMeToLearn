@@ -2,16 +2,10 @@ package Adapter;
 
 public class Laptop {
 
-    UsbC usbPort;
-    Hdmi hdmiAdapter;
-
-    public Laptop() {
-        this.usbPort = new UsbC();
-        this.hdmiAdapter = new UsbCToHdmiAdapter(usbPort);
-    }
-
-    public void send() {
-        hdmiAdapter.sendVideo("4K video stream");
+    public static void main(String[] args) {
+        UsbC usbPort = new UsbC();
+        Hdmi hdmiAdapter = new UsbCToHdmiAdapter(usbPort);
         hdmiAdapter.sendAudio("Dolby Atmos audio");
+        hdmiAdapter.sendVideo("4K video stream");
     }
 }
