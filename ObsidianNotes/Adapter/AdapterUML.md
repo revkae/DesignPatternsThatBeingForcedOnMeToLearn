@@ -1,0 +1,1 @@
+![[AdapterUML.drawio.png]]

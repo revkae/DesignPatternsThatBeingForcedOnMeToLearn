@@ -1,0 +1,3 @@
+- [[Strategy]]
+- [[Observer]]
+- [[Command]]
