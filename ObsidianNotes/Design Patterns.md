@@ -6,6 +6,7 @@
 - [[Proxy]]
 ## [[Creational]]
 - [[AbstractFactory]]
+- [[Builder]]
 ## [[Behavioral]]
 - [[Strategy]]
 - [[Observer]]
